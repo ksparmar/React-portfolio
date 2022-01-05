@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "LAN chat functionality",
+    subtitle: "C code",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A linux terminal based chat function that allows users to interact in real time. Built using data structures, mutexes, semaphores and threads in C.",
+    image: "./LAN_chat_functionality.gif",
+    link: "https://youtu.be/l0aUjgj0lik",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Re-designed Canvas app prototype",
+    subtitle: "Figma",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Analyzed the canvas mobile app and made an interactive prototype in figma using Don Norman’s principles of visual design, the C.R.A.P design principles, accessibility of visual design and typography rules",
+    image: "./Canvas_Interactive_Prototype__Figma.gif",
+    link: "https://youtu.be/Km1QcdRCyZM",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Find Da Match - Android Game",
+    subtitle: "Java-Android",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Coded in android(java), it is a mobile version of the game Spot It. Built using android components and Flickr API. Simulates the card game allowing the user to choose matching images and play in differet modes, and levels of diffculty",
+    image: "./Find_Da_Match__Android.gif",
+    link: "https://youtu.be/PXZ2khTIWPY",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Mineseeker - Android Game",
+    subtitle: "Java - Android",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Coded in android(java), it is a game of finding hidden objects on a playing field.",
+    image: "./Mineseeker_Android.gif",
+    link: "https://youtu.be/I-7-tObSU1Y",
   },
 ];
 
@@ -53,8 +53,10 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "C/C++",
+  "SQLServer",
+  "Python",
+  "Figma",
+  "Assembly",
+  "MongoDB"
 ];
