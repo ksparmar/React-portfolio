@@ -25,7 +25,7 @@ export default function Contact(){
     }
 
     return (
-        <section id = "contact" className = "relative">
+        <section id = "contact" className = "relative bg-gray-800">
             <div className = "container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div className = "lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe
@@ -83,7 +83,7 @@ export default function Contact(){
                             type = "text"
                             id ="name"
                             name = "name"
-                            className = "w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                     </div>
                     <div className = "relative mb-4">
                         <label htmlFor = "email" className = "leading-7 text-sm text-gray-200">
@@ -93,7 +93,7 @@ export default function Contact(){
                             type="email"
                             id="email"
                             name = "email"
-                            className = "w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                     </div>
                     <div className = "relative mb-4">
                         <label htmlFor = "message" className = "leading-7 text-sm text-gray-200">
@@ -102,7 +102,7 @@ export default function Contact(){
                         <textarea
                             id = "message"
                             name = "message"
-                            className = "w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                            className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                             />            
                     </div>
                     <button 

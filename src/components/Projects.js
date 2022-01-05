@@ -11,8 +11,9 @@ export default function Projects(){
                     <h1 className = "sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         Projects I've worked on
                     </h1>
-                    <p className = "lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Overview of the types of projects comes here....
+                    <p className = "lg:w-2/3 mx-auto leading-relaxed text-white">
+                        These are some of my projects. I've contributed to a number
+                        of operating system level, data science and database projects as well.
                     </p>
                 </div> 
                 <div className = "flex flex-wrap -m-4">
