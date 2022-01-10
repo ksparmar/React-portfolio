@@ -14,6 +14,7 @@ export default function Projects(){
                     <p className = "lg:w-2/3 mx-auto leading-relaxed text-white">
                         These are some of my projects. I've contributed to a number
                         of operating system level, data science and database projects as well.
+                        These are my android, UI/UX development and operating system projects below.
                     </p>
                 </div> 
                 <div className = "flex flex-wrap -m-4">
