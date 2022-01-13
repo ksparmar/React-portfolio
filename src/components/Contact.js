@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 
 /*iframe used for embedding google maps, uses embed-map.com, provides html code for src*/
 export default function Contact(){
@@ -61,7 +62,7 @@ export default function Contact(){
                             <h2 className = "title-font font-semibold text-white tracking-widest text-xs">
                                 PHONE
                             </h2>
-                            <p className = "leading-relaxed">778-***-****</p>
+                            <p className = "leading-relaxed">778-513-3081</p>
                         </div>    
                     </div>
                 </div>
