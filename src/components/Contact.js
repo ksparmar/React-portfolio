@@ -73,11 +73,11 @@ export default function Contact(){
                     <h2 className = "text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Hire Me
                     </h2>    
-                    <p className = "leading-relaxed mb-5 text-white">
+                    <p className = "leading-relaxed mb-5 text-gray-300">
                     I am based in Vancouver and available to relocate.
                     </p>
                     <div className = "relative mb-4">
-                        <label htmlFor = "name" className = "leading-7 test-sm text-gray-200">
+                        <label htmlFor = "name" className = "leading-7 test-sm text-gray-100">
                             Name
                         </label>
                         <input
@@ -87,7 +87,7 @@ export default function Contact(){
                             className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                     </div>
                     <div className = "relative mb-4">
-                        <label htmlFor = "email" className = "leading-7 text-sm text-gray-200">
+                        <label htmlFor = "email" className = "leading-7 text-sm text-gray-100">
                             Email
                         </label>
                         <input 
@@ -97,7 +97,7 @@ export default function Contact(){
                             className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                     </div>
                     <div className = "relative mb-4">
-                        <label htmlFor = "message" className = "leading-7 text-sm text-gray-200">
+                        <label htmlFor = "message" className = "leading-7 text-sm text-gray-100">
                             Message       
                         </label>
                         <textarea
