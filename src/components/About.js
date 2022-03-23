@@ -13,7 +13,7 @@ export default function About(){
                     </h2>
                     <div className = "flex justify-center">
                         <a 
-                        href = "linkedin.com/in/ksparmar81"
+                        href = "https://www.linkedin.com/in/ksparmar81/"
                         className = "inline-flex text-white bg-green-500 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-base">
                         Get connected with me    
                         </a>
