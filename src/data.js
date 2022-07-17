@@ -47,7 +47,7 @@ export const testimonials = [
     image: "https://randomuser.me/api/portraits/men/94.jpg",
     name: "Ruben Alvarez",
     company: "Dooble.io",
-  },
+  }
 ];
 
 export const skills = [
