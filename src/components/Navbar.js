@@ -17,7 +17,7 @@ export default function Navbar(){
                    <a href = "#skills" className = "mr-5 hover:text-white">
                         Skills
                    </a> 
-                   <a href="./Khushwant Parmar Resume SFU.pdf" download>
+                   <a href="./2022-23 resume.pdf" download>
                       Resume
                     </a>
                    

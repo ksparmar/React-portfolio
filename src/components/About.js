@@ -21,7 +21,7 @@ export default function About(){
                         className = "ml-4 inline-flex text-white bg-gray-700 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base">
                         Past Projects    
                         </a>
-                        <a href ="./Khushwant Parmar Resume SFU.pdf" download
+                        <a href ="./2022-23 resume.pdf" download
                             className = "ml-4 inline-flex text-white bg-gray-700 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base">
                         My Resume   
                         </a>
