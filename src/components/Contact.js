@@ -23,8 +23,10 @@ export default function Contact(){
             //body:encode({"form-name":"contacts",name,email,message}),
             body:encode({"form-name":"contact",name,email,message}),
         })
+        
             .then(()=>alert("Message sent!"))
             .catch((error)=>alert(error));
+        e.target.reset();
     }
 
     return (
