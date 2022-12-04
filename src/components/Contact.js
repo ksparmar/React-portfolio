@@ -20,7 +20,10 @@ export default function Contact(){
         fetch("/",{
             method:"POST",
             headers:{"Content-Type":"application/x-www-form-urlencoded"},
-            body:encode({"form-name":"contacts",name,email,message}),
+            //body:encode({"form-name":"contacts",name,email,message}),
+            body:encode({"form-name":e.target.getAttribute("name"),
+            ...name
+            }),
         })
             .then(()=>alert("Message sent!"))
             .catch((error)=>alert(error));
@@ -67,10 +70,12 @@ export default function Contact(){
                     </div>
                 </div>
                 <form
-                    netlify
+                    data-netlify = "true"
                     name = "contact"
+                    method="post"
                     onSubmit={handleSubmit}
                     className = "lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+
                     <h2 className = "text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                         Hire Me
                     </h2>    
