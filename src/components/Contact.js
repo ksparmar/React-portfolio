@@ -21,9 +21,7 @@ export default function Contact(){
             method:"POST",
             headers:{"Content-Type":"application/x-www-form-urlencoded"},
             //body:encode({"form-name":"contacts",name,email,message}),
-            body:encode({"form-name":e.target.getAttribute("name"),
-            ...name
-            }),
+            body:encode({"form-name":"contact",name,email,message}),
         })
             .then(()=>alert("Message sent!"))
             .catch((error)=>alert(error));
@@ -88,6 +86,7 @@ export default function Contact(){
                         </label>
                         <input
                             type = "text"
+                            onChange={(e)=>setName(e.target.value)}
                             id ="name"
                             name = "name"
                             className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
@@ -98,6 +97,7 @@ export default function Contact(){
                         </label>
                         <input 
                             type="email"
+                            onChange={(e)=>setEmail(e.target.value)}
                             id="email"
                             name = "email"
                             className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
@@ -109,6 +109,7 @@ export default function Contact(){
                         <textarea
                             id = "message"
                             name = "message"
+                            onChange={(e)=>setMessage(e.target.value)}
                             className = "w-full bg-gray-700 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                             />            
                     </div>
