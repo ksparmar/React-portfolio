@@ -1,7 +1,10 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
+import { GApageView } from "..";
 
 export default function Navbar(){
+    useEffect(() => { GApageView("landing"); }, []);
     return (
         <header className = "bg-black md:sticky top-0 z-10">
             <div className = "container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
