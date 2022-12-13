@@ -6,12 +6,11 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import ReactGA from 'react-ga';
-import { initGA } from ".";
+
+const TRACKING_ID = "UA-250974973-1"; 
+ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
-
-  useEffect(() => {initGA();},[]);
-
   return (
     <main className="text-gray-400 bg-green-900 body-font">
       <Navbar />

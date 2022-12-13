@@ -1,5 +1,8 @@
 import React from 'react';
+import useAnalyticsEventTracker from '../useGaTracker';
+
 export default function About(){
+    const gaEventTracker = useAnalyticsEventTracker('About');
     return (
         <section id ="about" className="bg-gray-800">
             <div className = "container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -17,7 +20,7 @@ export default function About(){
                         className = "inline-flex text-white bg-green-500 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-base">
                         Get connected with me    
                         </a>
-                        <a href ="#projects"
+                        <a href ="#projects" onClick={()=> gaEventTracker('projects')}
                         className = "ml-4 inline-flex text-white bg-gray-700 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base">
                         Past Projects    
                         </a>
