@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import useAnalyticsEventTracker from '../useGaTracker';
 
 /*iframe used for embedding google maps, uses embed-map.com, provides html code for src*/
 export default function Contact(){
@@ -28,7 +29,7 @@ export default function Contact(){
             .catch((error)=>alert(error));
         e.target.reset();
     }
-
+    const gaEventTracker = useAnalyticsEventTracker('Contact');
     return (
         <section id = "contact" className = "relative bg-gray-800">
             <div className = "container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -117,6 +118,7 @@ export default function Contact(){
                     </div>
                     <button 
                         type= "submit"
+                        onClick={()=>gaEventTracker('contact form submit')}
                         className = "text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                         >
                             Submit

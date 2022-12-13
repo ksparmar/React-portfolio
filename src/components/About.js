@@ -31,12 +31,12 @@ export default function About(){
                     </div>
                     <div className = "flex justify-center" >
                         <a
-                        href ="./CMPT 353-Project-Khushwant.pdf" download
+                        href ="./CMPT 353-Project-Khushwant.pdf" download onClick={()=>gaEventTracker('353 project download')}
                         className = "ml-4 inline-flex text-white bg-gray-700 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base">
                         Python Data Science Project Report   
                         </a>
                         <a 
-                        href ="./318 Project.pdf" download
+                        href ="./318 Project.pdf" download onClick={()=>gaEventTracker('318 project download')}
                         className = "ml-4 inline-flex text-white bg-gray-700 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base">
                         R Project Report
                         </a>
