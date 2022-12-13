@@ -5,6 +5,9 @@ import useAnalyticsEventTracker from "../useGaTracker";
 
 export default function Navbar(){
     const gaEventTracker = useAnalyticsEventTracker('Navbar');
+    useEffect(() => {
+        gaEventTracker('navbar loaded');
+    });
     return (
         <header className = "bg-black md:sticky top-0 z-10">
             <div className = "container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
