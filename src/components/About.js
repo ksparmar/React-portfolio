@@ -16,15 +16,15 @@ export default function About(){
                     </h2>
                     <div className = "flex justify-center">
                         <a 
-                        href = "https://www.linkedin.com/in/ksparmar81/"
+                        href = "https://www.linkedin.com/in/ksparmar81/" onClick={() => gaEventTracker('linkedin redirect')}
                         className = "inline-flex text-white bg-green-500 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-base">
                         Get connected with me    
                         </a>
-                        <a href ="#projects" onClick={()=> gaEventTracker('projects')}
+                        <a href ="#projects" onClick={()=> gaEventTracker('past projects')}
                         className = "ml-4 inline-flex text-white bg-gray-700 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base">
                         Past Projects    
                         </a>
-                        <a href ="./2022-23 resume.pdf" download
+                        <a href ="./2022-23 resume.pdf" download onClick={()=>gaEventTracker('resume download')}
                             className = "ml-4 inline-flex text-white bg-gray-700 border-0 mt-6 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base">
                         My Resume   
                         </a>
